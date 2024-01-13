@@ -13,8 +13,8 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${heroBg})` }}
       className="text-white bg-center bg-cover w-full h-full relative overflow-hidden"
     >
-      <div className="flex justify-between gap-8 border border-red-600 lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28">
-        <div className="flex flex-col gap-3 md:mt-14 xl:mt-28 border 2xl:max-w-[740px]">
+      <div className="flex justify-between gap-8 border-red-600 lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28">
+        <div className="flex flex-col gap-3 md:mt-14 xl:mt-28  2xl:max-w-[740px]">
           <h1 className="text-lg lg:text-4xl 2xl:text-5xl font-bold">
             Welcome to OMAYA Express
           </h1>
@@ -51,7 +51,7 @@ const HeroSection = () => {
         <img src={mobile} alt="mobile" className="object-cover w-72 xl:w-96" />
       </div>
 
-      <div className="bg-[#1D1D23] flex flex-col gap-10 py-16 px-8 w-full rounded-l-[36px] absolute bottom-0 left-28">
+      <div className="bg-[#1D1D23] flex flex-col gap-4 md:gap-5 xl:gap-10 py-8 md:py-16 px-4 md:px-8 w-full rounded-l-[36px] absolute bottom-0 left-6 lg:left-14 2xl:left-28">
         <div className="flex items-center justify-start capitalize gap-[120px]">
           <div className="flex flex-col gap-1">
             <h3 className="text-[#1D8751] text-5xl font-bold">10M+</h3>
@@ -84,14 +84,14 @@ const HeroSection = () => {
 
         <div className="bg-[#35353E] h-[1px]" />
 
-        <div className="flex items-center gap-16">
-          <div className="flex items-center gap-12 border">
-            <div className="flex flex-col gap-4 w-80">
-              <h5 className="capitalize text-xl font-semibold">
+        <div className="flex items-center gap-8 2xl:gap-16">
+          <div className="flex items-center gap-0 2xl:gap-12 ">
+            <div className="flex flex-col gap-3 md:gap-4 w-80">
+              <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Absolute safety
               </h5>
 
-              <p className="text-[#788099] text-base leading-5">
+              <p className="text-[#788099] text-sm lg:text-base leading-5">
                 Exchange confidently with OMAYA, where safety is our top
                 priority.
               </p>
@@ -104,13 +104,13 @@ const HeroSection = () => {
             />
           </div>
 
-          <div className="flex items-center gap-12">
+          <div className="flex items-center gap-0 2xl:gap-12">
             <div className="flex flex-col gap-4 w-80">
-              <h5 className="capitalize text-xl font-semibold">
+              <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Fast Deposits & Withdrawals
               </h5>
 
-              <p className="text-[#788099] text-base leading-5">
+              <p className="text-[#788099] text-sm lg:text-base leading-5">
                 Enjoy swift and seamless deposits and withdrawals
               </p>
             </div>
@@ -122,13 +122,13 @@ const HeroSection = () => {
             />
           </div>
 
-          <div className="flex items-center gap-12">
+          <div className="flex items-center gap-0 2xl:gap-12">
             <div className="flex flex-col gap-4 w-80">
-              <h5 className="capitalize text-xl font-semibold">
+              <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Invite your friend and earn
               </h5>
 
-              <p className="text-[#788099] text-base leading-5">
+              <p className="text-[#788099] text-sm lg:text-base leading-5">
                 Refer and Invite your friends and earn commission on each
                 transaction they make with us!
               </p>
