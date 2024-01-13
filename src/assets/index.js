@@ -12,6 +12,13 @@ import phone from "./landing-page/phone.png";
 import appleStore from "./landing-page/apple-store.svg";
 import googlePlay from "./landing-page/google-play.svg";
 import dot from "./landing-page/dot.svg";
+import banner1 from "./landing-page/contact-us-img.png";
+import bitcoin from "./landing-page/bitcoin.svg";
+import fxPrimus from "./landing-page/fx-primus.svg";
+import erc20 from "./landing-page/erc-20.svg";
+import trc20 from "./landing-page/trc-20.svg";
+import icmCapital from "./landing-page/icm-capital.svg";
+import perfectMoney from "./landing-page/perfect-money.svg";
 
 export {
   heroBg,
@@ -28,4 +35,11 @@ export {
   appleStore,
   googlePlay,
   dot,
+  banner1,
+  bitcoin,
+  fxPrimus,
+  erc20,
+  trc20,
+  icmCapital,
+  perfectMoney,
 };

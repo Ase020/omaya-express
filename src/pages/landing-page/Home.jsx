@@ -1,10 +1,11 @@
-import { HeroSection, SetupProcess } from "./sections";
+import { ContactUs, HeroSection, SetupProcess } from "./sections";
 
 const Home = () => {
   return (
-    <section className="bg-dark">
+    <section className="bg-dark text-white">
       <HeroSection />
       <SetupProcess />
+      <ContactUs />
     </section>
   );
 };

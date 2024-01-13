@@ -11,6 +11,11 @@
   font-family: "Mulish", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 @layer utilities {
   .bg-dark {
     background-color: #18181d;
