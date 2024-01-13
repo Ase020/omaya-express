@@ -1,11 +1,11 @@
-import { banner1, bitcoin } from "../../../assets";
+import { banner1 } from "../../../assets";
 import { coinsOffered } from "../data";
 
 const ContactUs = () => {
   return (
     <div className="">
       <div className="bg-gradient-to-r to-[#197345] from-[#278D59]">
-        <div className=" flex justify-between items-center lg:py-6 2xl:py-9 pl-6 lg:pl-14 2xl:pl-28">
+        <div className=" flex justify-between items-center lg:pt-6 2xl:pt-9 pl-6 lg:pl-14 2xl:pl-28">
           <div className="flex flex-col gap-6 max-w-3xl">
             <h4 className="text-lg font-semibold">
               Invite your friend, and earn commission

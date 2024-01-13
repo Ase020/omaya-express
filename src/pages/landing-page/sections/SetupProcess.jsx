@@ -60,7 +60,7 @@ const SetupProcess = () => {
             ● Why Choose Us
           </span>
 
-          <h5 className="text-4xl font-bold">
+          <h5 className="text-4xl font-bold md:max-w-md">
             <span className="text-[#1D8751]">Fast</span> and{" "}
             <span className="text-[#1D8751]">Secure</span> Crypto Exchange{" "}
           </h5>

@@ -50,22 +50,22 @@ export const coinsOffered = [
     img: perfectMoney,
   },
   {
-    id: 1,
+    id: 3,
     name: "USDT Tether(ERC20)",
     img: erc20,
   },
   {
-    id: 1,
+    id: 4,
     name: "Bitcoin",
     img: bitcoin,
   },
   {
-    id: 1,
+    id: 5,
     name: "USDT Tether(TRC20)",
     img: trc20,
   },
   {
-    id: 1,
+    id: 6,
     name: "ICM Capital",
     img: icmCapital,
   },
