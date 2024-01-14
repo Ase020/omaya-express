@@ -2,6 +2,7 @@ import {
   ArticlesSection,
   CTA,
   ContactUs,
+  FAQ,
   HeroSection,
   SetupProcess,
 } from "./sections";
@@ -14,6 +15,7 @@ const Home = () => {
       <ContactUs />
       <ArticlesSection />
       <CTA />
+      <FAQ />
     </section>
   );
 };

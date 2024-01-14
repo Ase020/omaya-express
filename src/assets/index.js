@@ -22,6 +22,7 @@ import perfectMoney from "./landing-page/perfect-money.svg";
 import blogCard from "./landing-page/blog-card.png";
 import ctaHero from "./landing-page/cta-hero.png";
 import mail from "./landing-page/mail.svg";
+import faqHero from "./landing-page/faq-hero.png";
 
 export {
   heroBg,
@@ -48,4 +49,5 @@ export {
   blogCard,
   ctaHero,
   mail,
+  faqHero,
 };
