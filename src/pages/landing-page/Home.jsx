@@ -1,4 +1,9 @@
-import { ContactUs, HeroSection, SetupProcess } from "./sections";
+import {
+  ArticlesSection,
+  ContactUs,
+  HeroSection,
+  SetupProcess,
+} from "./sections";
 
 const Home = () => {
   return (
@@ -6,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <SetupProcess />
       <ContactUs />
+      <ArticlesSection />
     </section>
   );
 };
