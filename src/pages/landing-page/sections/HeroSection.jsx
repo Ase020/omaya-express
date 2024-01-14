@@ -13,8 +13,8 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${heroBg})` }}
       className="text-white bg-center bg-cover w-full h-full relative overflow-hidden"
     >
-      <div className="flex justify-between gap-8 border-red-600 lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28">
-        <div className="flex flex-col gap-3 md:mt-14 xl:mt-28  2xl:max-w-[740px]">
+      <div className="flex flex-col items-center md:items-start md:flex-row justify-between gap-8 border-red-600 lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left gap-3 pt-12 md:pt-0 md:mt-14 xl:mt-28  2xl:max-w-[740px]">
           <h1 className="text-lg lg:text-4xl 2xl:text-5xl font-bold">
             Welcome to OMAYA Express
           </h1>
@@ -48,11 +48,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <img
-          src={mobile}
-          alt="mobile"
-          className="object-cover hidden md:flex w-72 xl:w-96"
-        />
+        <img src={mobile} alt="mobile" className="object-cover w-72 xl:w-96" />
       </div>
 
       <div className="bg-[#1D1D23] flex flex-col gap-4 md:gap-5 xl:gap-10 py-8 md:py-16 px-4 md:px-8 w-full md:rounded-l-[36px] mt-12 md:absolute bottom-0 left-6 lg:left-14 2xl:left-28">

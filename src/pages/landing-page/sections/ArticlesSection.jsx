@@ -9,7 +9,7 @@ const ArticlesSection = () => {
   };
   return (
     <div className="lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28 flex flex-col gap-8">
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 text-center md:text-left items-center md:items-start">
         <span className="text-[#027A48] px-4 py-2.5 bg-[#35353E] w-fit rounded-3xl font-semibold text-base">
           ● Articles
         </span>

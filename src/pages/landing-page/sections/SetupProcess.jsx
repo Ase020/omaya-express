@@ -147,7 +147,7 @@ const SetupProcess = () => {
             </li>
           </ul>
 
-          <div className="flex items-center flex-row gap-5 md:gap-3">
+          <div className="flex items-center flex-col md:flex-row gap-5 md:gap-3">
             <img
               src={appleStore}
               alt="appleStore"
