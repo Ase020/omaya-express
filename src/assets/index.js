@@ -20,6 +20,8 @@ import trc20 from "./landing-page/trc-20.svg";
 import icmCapital from "./landing-page/icm-capital.svg";
 import perfectMoney from "./landing-page/perfect-money.svg";
 import blogCard from "./landing-page/blog-card.png";
+import ctaHero from "./landing-page/cta-hero.png";
+import mail from "./landing-page/mail.svg";
 
 export {
   heroBg,
@@ -44,4 +46,6 @@ export {
   icmCapital,
   perfectMoney,
   blogCard,
+  ctaHero,
+  mail,
 };

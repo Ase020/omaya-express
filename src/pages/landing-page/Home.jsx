@@ -1,5 +1,6 @@
 import {
   ArticlesSection,
+  CTA,
   ContactUs,
   HeroSection,
   SetupProcess,
@@ -12,6 +13,7 @@ const Home = () => {
       <SetupProcess />
       <ContactUs />
       <ArticlesSection />
+      <CTA />
     </section>
   );
 };
