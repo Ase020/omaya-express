@@ -1,7 +1,12 @@
 import { useState } from "react";
+import { BlogCard } from "../../../components";
 
 const ArticlesSection = () => {
   const [value, setValue] = useState("news");
+
+  const handleChange = (newValue) => {
+    setValue(newValue);
+  };
   return (
     <div className="lg:py-6 2xl:py-9 px-6 lg:px-14 2xl:px-28 border flex flex-col gap-8">
       <div className="flex flex-col gap-5">
@@ -19,13 +24,14 @@ const ArticlesSection = () => {
             className={`cursor-pointer flex items-center gap-2 px-4 py-2.5 ${
               value === "news" && "bg-[#1D8751] text-white"
             } border border-[#788099] rounded-l-3xl text-[#788099] font-semibold`}
-            onClick={() => setValue("news")}
+            onClick={() => handleChange("news")}
           >
             <input
               type="radio"
               name="category"
               value={value}
               checked={value === "news"}
+              onChange={() => handleChange("news")}
             />
             News
           </label>
@@ -34,20 +40,34 @@ const ArticlesSection = () => {
             className={`cursor-pointer flex items-center gap-2 px-4 py-2.5 ${
               value === "blog" && "bg-[#1D8751] text-white"
             } border border-[#788099] rounded-r-3xl text-[#788099] font-semibold`}
-            onClick={() => setValue("blog")}
+            onClick={() => () => handleChange("blog")}
           >
             <input
               type="radio"
               name="category"
               value={value}
               checked={value === "blog"}
+              onChange={() => handleChange("blog")}
             />
             Blog
           </label>
         </form>
       </div>
-      <div className="">olali</div>
-      <div className="">nyalenda</div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 border">
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+      </div>
+
+      <div className="mx-auto">
+        <button type="button" className="bg-[#1D8751] rounded-3xl px-10 py-3">
+          Go to News
+        </button>
+      </div>
     </div>
   );
 };

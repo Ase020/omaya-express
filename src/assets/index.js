@@ -19,6 +19,7 @@ import erc20 from "./landing-page/erc-20.svg";
 import trc20 from "./landing-page/trc-20.svg";
 import icmCapital from "./landing-page/icm-capital.svg";
 import perfectMoney from "./landing-page/perfect-money.svg";
+import blogCard from "./landing-page/blog-card.png";
 
 export {
   heroBg,
@@ -42,4 +43,5 @@ export {
   trc20,
   icmCapital,
   perfectMoney,
+  blogCard,
 };
