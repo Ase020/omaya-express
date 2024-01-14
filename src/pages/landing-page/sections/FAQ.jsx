@@ -3,7 +3,7 @@ import { AccordionCom } from "../../../components";
 
 const FAQ = () => {
   return (
-    <div className="py-6 2xl:py-12 px-6 lg:px-8 2xl:px-28 gap-5 lg:gap-10 flex md:gap-8 h-full">
+    <div className="py-6 2xl:py-12 px-6 lg:px-8 2xl:px-28 gap-5 lg:gap-10 flex md:gap-8 flex-col md:flex-row h-full">
       <div className="flex-1">
         <img src={faqHero} alt="faq" className="md:my-auto" />
       </div>

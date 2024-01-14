@@ -52,7 +52,7 @@ const SetupProcess = () => {
         <img
           src={phone}
           alt="phone"
-          className="object-contain w-full md:w-1/2 h-[550px]"
+          className="object-contain w-full md:w-1/2 h-[550px] mt-6 md:mt-0"
         />
 
         <div className="py-3 flex flex-col items-center md:items-start justify-between gap-12 lg:gap-16 w-full md:w-1/2 h-full ">
@@ -60,7 +60,7 @@ const SetupProcess = () => {
             ● Why Choose Us
           </span>
 
-          <h5 className="text-4xl font-bold md:max-w-md">
+          <h5 className="text-center md:text-left text-4xl font-bold md:max-w-md">
             <span className="text-[#1D8751]">Fast</span> and{" "}
             <span className="text-[#1D8751]">Secure</span> Crypto Exchange{" "}
           </h5>
@@ -147,7 +147,7 @@ const SetupProcess = () => {
             </li>
           </ul>
 
-          <div className="flex items-center flex-col md:flex-row gap-5 md:gap-3">
+          <div className="flex items-center flex-row gap-5 md:gap-3">
             <img
               src={appleStore}
               alt="appleStore"

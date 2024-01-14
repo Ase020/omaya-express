@@ -26,10 +26,10 @@ const HeroSection = () => {
             aliquip ex ea commodo consequat
           </p>
 
-          <div className="flex items-center gap-5 mt-6">
+          <div className="flex items-center flex-col md:flex-row gap-6 md:gap-5 mt-6">
             <button
               type="button"
-              className="rounded-2xl md:rounded-3xl text-base bg-[#1D8751] px-5 py-3"
+              className="rounded-3xl md:rounded-3xl text-base bg-[#1D8751] px-5 py-3"
             >
               Contact Us
             </button>
@@ -48,11 +48,15 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <img src={mobile} alt="mobile" className="object-cover w-72 xl:w-96" />
+        <img
+          src={mobile}
+          alt="mobile"
+          className="object-cover hidden md:flex w-72 xl:w-96"
+        />
       </div>
 
-      <div className="bg-[#1D1D23] flex flex-col gap-4 md:gap-5 xl:gap-10 py-8 md:py-16 px-4 md:px-8 w-full rounded-l-[36px] absolute bottom-0 left-6 lg:left-14 2xl:left-28">
-        <div className="flex items-center justify-start capitalize gap-[120px]">
+      <div className="bg-[#1D1D23] flex flex-col gap-4 md:gap-5 xl:gap-10 py-8 md:py-16 px-4 md:px-8 w-full md:rounded-l-[36px] mt-12 md:absolute bottom-0 left-6 lg:left-14 2xl:left-28">
+        <div className="flex items-center flex-col md:flex-row justify-start capitalize gap-12 pb-6 md:pb-0 md:gap-[120px]">
           <div className="flex flex-col gap-1">
             <h3 className="text-[#1D8751] text-5xl font-bold">10M+</h3>
             <p className="text-base text-[#788099] font-medium">
@@ -82,10 +86,10 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#35353E] h-[1px]" />
+        <div className="bg-[#35353E] h-[1px] my-6 md:my-0" />
 
-        <div className="flex items-center gap-8 2xl:gap-16">
-          <div className="flex items-center gap-0 2xl:gap-12 ">
+        <div className="flex items-center flex-col md:flex-row gap-12 2xl:gap-16">
+          <div className="flex items-center gap-4 2xl:gap-12 ">
             <div className="flex flex-col gap-3 md:gap-4 w-80">
               <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Absolute safety
@@ -100,11 +104,11 @@ const HeroSection = () => {
             <img
               src={safety}
               alt="safety"
-              className="object-contain h-24 w-24"
+              className="object-contain h-20 w-20 md:h-24 md:w-24"
             />
           </div>
 
-          <div className="flex items-center gap-0 2xl:gap-12">
+          <div className="flex items-center  gap-4 2xl:gap-12">
             <div className="flex flex-col gap-4 w-80">
               <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Fast Deposits & Withdrawals
@@ -118,11 +122,11 @@ const HeroSection = () => {
             <img
               src={dollar}
               alt="dollar"
-              className="object-contain h-24 w-24"
+              className="object-contain h-20 w-20 md:h-24 md:w-24"
             />
           </div>
 
-          <div className="flex items-center gap-0 2xl:gap-12">
+          <div className="flex items-center gap-4 2xl:gap-12">
             <div className="flex flex-col gap-4 w-80">
               <h5 className="capitalize text-base lg:text-xl font-semibold">
                 Invite your friend and earn
@@ -137,7 +141,7 @@ const HeroSection = () => {
             <img
               src={referral}
               alt="referral"
-              className="object-contain h-24 w-24"
+              className="object-contain h-20 w-20 md:h-24 md:w-24"
             />
           </div>
         </div>

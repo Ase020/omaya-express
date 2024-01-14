@@ -2,7 +2,7 @@ import { ctaHero, mail } from "../../../assets";
 
 const CTA = () => {
   return (
-    <div className="py-6 2xl:py-12 px-6 lg:px-8 2xl:px-28 gap-5 lg:gap-10  flex flex-col-reverse md:flex-row items-center justify-between h-full bg-[#1D1D23]">
+    <div className="py-6 2xl:py-12 px-6 lg:px-8 2xl:px-28 gap-5 lg:gap-10 flex flex-col-reverse md:flex-row items-center justify-between h-full bg-[#1D1D23]">
       {/* desc div */}
 
       <div className="flex-2 flex flex-col gap-4 py-4 ">
